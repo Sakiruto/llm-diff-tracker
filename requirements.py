@@ -1,0 +1,10 @@
+langchain 
+langchain-core
+langchain-openai
+langchain-community
+loguru
+jira
+atlassian-python-api
+flask 
+openai-agents
+tiktoken
