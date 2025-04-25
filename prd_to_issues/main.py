@@ -132,7 +132,9 @@ epics_json_str = json.dumps(epics_dict, indent=2)
 
 bot.add_message("system", epics_json_str)
 
-consistency = """
+# this part is added along with userfeed back to maintain consistency 
+
+consistency_prompt = """
 Ensure strict adherence to the original Jira issue structure:
 - **User Stories must retain clear structure** (Title, Description, Request, Acceptance Criteria, Priority, Labels).
 - **All Tasks within a User Story must align in description, priority, and labels.**
@@ -150,7 +152,7 @@ user_feedback :str =  input("Enter the feedback")
 user_feedback_json = parser.get_structured_intention_response(prompt_intention, user_feedback, EpicsToBeChanged)
 
 final_feedback = f"""
-{consistency}
+{consistency_prompt}
 
 {user_feedback_json}
 """
