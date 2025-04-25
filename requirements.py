@@ -8,3 +8,4 @@ atlassian-python-api
 flask 
 openai-agents
 tiktoken
+typing 

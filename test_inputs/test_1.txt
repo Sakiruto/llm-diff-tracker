@@ -1,0 +1,13 @@
+1. Enter the feedback Make the user story  Seamless integration of service components inside epic  Integrations & API Services as low priority along with tasks
+
+2. making the epic more discriptive and all 
+(can you distribute the tasks more inside the epic User Experience & UI Design , try to break down this epics user story into more tasks )
+
+
+3. completely removing a epic/user story 
+( remove the epic Epic: Safety & Compliance it is not required )
+
+4. Expanding on part of the epic of user story , saying it like. make it more decriptive 
+( Safety & Compliance should have 2 or more user stories and also make this epic more discriptive )
+
+remove the Epic: Notifications & Alerts keeping all other same 
